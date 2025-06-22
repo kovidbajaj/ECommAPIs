@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using APIs</title>
+</head>
+<body>
+        <table border="1">
+            <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Desc</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Category</th>
+            </thead>
+            <tbody id="productTableBody">
+                <!-- This will be populated on the basis of API response -->
+            </tbody>
+        </table>
+
+        <script>
+            const token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsInVzZXJOYW1lIjoiSm9obiBEb2UiLCJ1c2VyRW1haWwiOiJqb2huZG9lQGdtYWlsLmNvbSIsInVzZXJUeXBlIjoiVXNlciIsImlhdCI6MTc0ODEwMDU0MCwiZXhwIjoxNzQ4MTA0MTQwfQ.kRWNJeWSjdTXvQuYF6LvZDb-iV4LFE-SCO_D6IuE8MQ';
+            fetch('http://localhost:3200/api/products/',{
+                method:"GET",
+                headers:{
+                "Authorization":token,
+                },
+            })
+            .then(response=>response.json())
+            .then(data=>{
+                //here i will receive the data
+                const tableBody=document.getElementById('productTableBody');
+                data.forEach((data)=>{
+                    const row=document.createElement('tr');
+
+                    const idCell=document.createElement('td');
+                    idCell.textContent=data.id;
+                    row.appendChild(idCell);
+
+                    const nameCell=document.createElement('td');
+                    nameCell.textContent=data.name;
+                    row.appendChild(nameCell);
+
+                    const descCell=document.createElement('td');
+                    descCell.textContent=data.desc;
+                    row.appendChild(descCell);
+
+                    const priceCell=document.createElement('td');
+                    priceCell.textContent=data.price;
+                    row.appendChild(priceCell);
+
+                    const imageCell=document.createElement('td');
+                    imageCell.innerHTML=`<img src="${data.imageUrl}" height="150" width="200">`
+                    row.appendChild(imageCell);
+
+                    const categoryCell=document.createElement('td');
+                    categoryCell.textContent=data.category;
+                    row.appendChild(categoryCell);
+
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(err=>console.error('Error',err));
+        </script>    
+</body>
+</html>

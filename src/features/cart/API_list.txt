@@ -1,0 +1,3 @@
+1. Add item to the cart
+2. Get all the cart items
+3. Delete item from the cart

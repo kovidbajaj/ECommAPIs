@@ -1,0 +1,137 @@
+{
+    "swagger":"2.0",
+    "info":{
+        "title":"E-Commerce API",
+        "description":"API for E-Commerce Application",
+        "version":"1.0.0"
+    },
+    "host":"localhost:3200",
+    "securityDefinitions":{
+        "JWT":{
+            "in":"header",
+            "name":"Authorization",
+            "type":"apiKey"
+        }
+    },
+    "paths":{
+        "/api/products/:id":{
+            "get":{
+                "tags":["Products"],
+                "summary":"Get a product by ID",
+                "description":"User can get the product by id",
+                "security":[{"JWT":{}}],
+                "parameters":[
+                    {
+                        "in":"path",
+                        "name":"params",
+                        "description":"Product ID",
+                        "schema":{
+                            "type":"object",
+                            "properties":{
+                                "id":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"OK"
+                    },
+                    "401":{
+                        "description":"Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/products":{
+            "get":{
+                "tags":["Products"],
+                "summary":"Get all the Products",
+                "description":"User will get all the products",
+                "security":[{"JWT":{}}],
+                "responses":{
+                    "200":{
+                        "description":"OK"
+                    },
+                    "401":{
+                        "description":"Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/users/signup":{
+            "post":{
+                "tags":["Users"],
+                "summary":"Register",
+                "description":"User registers",
+                "parameters":[
+                    {
+                        "in":"body",
+                        "name":"body",
+                        "description":"User Credentials",
+                        "schema":{
+                            "type":"object",
+                            "properties":{
+                                "name":{
+                                    "type":"string"
+                                },
+                                "email":{
+                                    "type":"string"
+                                },
+                                "password":{
+                                    "type":"string"
+                                },
+                                "type":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses":{
+                    "201":{
+                        "description":"Registration Successful"
+                    },
+                    "400":{
+                        "description":"Bad Request"
+                    }
+                }
+            }
+        },
+        "/api/users/signin":{
+            "post":{
+                "tags":["Users"],
+                "summary":"Login",
+                "description":"User login to get the token",
+                "parameters":[
+                    {
+                        "in":"body",
+                        "name":"body",
+                        "description":"User Credentials",
+                        "schema":{
+                            "type":"object",
+                            "properties":{
+                                "email":{
+                                    "type":"string"
+                                },
+                                "password":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"OK"
+                    },
+                    "400":{
+                        "description":"Incorrect Credentials"
+                    }
+                }
+            }
+        }
+    }
+}

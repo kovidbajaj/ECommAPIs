@@ -1,0 +1,99 @@
+                                              LOGS                                                                                 
+Timestamp: Tue May 27 2025 01:27:21 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 01:28:53 GMT+0530 (India Standard Time), Req URL: /api/products/filter?minPrice=30000&maxPrice=120000&category=Clothes, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 11:44:03 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 11:44:40 GMT+0530 (India Standard Time), Req URL: /api/products/123, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 11:44:49 GMT+0530 (India Standard Time), Req URL: /api/products/123, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 11:44:49 GMT+0530 (India Standard Time), Error: Something went wrong with database
+Timestamp: Tue May 27 2025 12:04:59 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"John Doe","email":"johndoe@gmail.com","password":"Password123@","type":"User"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:05:41 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:07:51 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:09:02 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:09:53 GMT+0530 (India Standard Time), Req URL: /api/products/68355dbf697e0a60126f5948, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:10:38 GMT+0530 (India Standard Time), Req URL: /api/products/filter?minPrice=30000&maxPrice=120000&category=Clothes, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:10:49 GMT+0530 (India Standard Time), Req URL: /api/products/filter?minPrice=30000&maxPrice=120000&category=Clothing, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:12:47 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=68355dbf697e0a60126f5948&rating=3.8, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:13:05 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=68355dbf697e0a60126f5948&rating=3.8, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:13:10 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:13:43 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=68355dbf697e0a60126f5948&rating=4.2, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:13:50 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:17:37 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"John Doe","email":"johndoe@gmail.com","password":"Password123@","type":"User"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:18:05 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:18:16 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:18:40 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:19:19 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:19:39 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=68356048ac08c0a32267b6dd&rating=3.8, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:19:45 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:20:05 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=68356048ac08c0a32267b6dd&rating=4.2, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:20:11 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Tue May 27 2025 12:20:48 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=68356048ac08c0a32267b6dd&rating=6, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:17:14 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:17:52 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:18:16 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:18:16 GMT+0530 (India Standard Time), Error: Something went wrong with database
+Timestamp: Wed May 28 2025 00:28:06 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"John Doe","email":"johndoe@gmail.com","password":"Password123@","type":"User"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:28:28 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:29:09 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:30:58 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:31:10 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:33:12 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:34:01 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:35:07 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:35:17 GMT+0530 (India Standard Time), Req URL: /api/products/68360c70b63494d7ed09949e, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:35:35 GMT+0530 (India Standard Time), Req URL: /api/products/68360c70b63494d7ed09949e, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 00:35:52 GMT+0530 (India Standard Time), Req URL: /favicon.ico, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Wed May 28 2025 01:07:35 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"John Doe","email":"johndoe@gmail.com","password":"Password123@","type":"User"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:08:06 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:08:24 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:08:50 GMT+0530 (India Standard Time), Req URL: /api/products/683614b060ac97fa09c0a381, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:09:07 GMT+0530 (India Standard Time), Req URL: /api/products/filter?minPrice=30000&maxPrice=120000&category=Clothing, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:09:13 GMT+0530 (India Standard Time), Req URL: /api/products/filter?minPrice=30000&maxPrice=120000, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:09:31 GMT+0530 (India Standard Time), Req URL: /api/products/filter?minPrice=30000&maxPrice=200000, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:10:18 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=683614b060ac97fa09c0a381&rating=4.8, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:10:18 GMT+0530 (India Standard Time), TypeError: ProductRepository.rate is not a function
+Timestamp: Wed May 28 2025 01:11:38 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=683614b060ac97fa09c0a381&rating=4.8, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:11:43 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:13:10 GMT+0530 (India Standard Time), Req URL: /api/products/rate?productID=683614b060ac97fa09c0a381&rating=4.9, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:13:14 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:14:32 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:16:56 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: {"productID":"683614b060ac97fa09c0a381","quantity":"10"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:17:02 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:18:40 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: {"productID":"683614b060ac97fa09c0a381","quantity":"15"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:21:11 GMT+0530 (India Standard Time), Req URL: /api/cartItems/683614b060ac97fa09c0a381, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:23:51 GMT+0530 (India Standard Time), Req URL: /api/cartItems/683614b060ac97fa09c0a381, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:24:50 GMT+0530 (India Standard Time), Req URL: /api/cartItems/683614b060ac97fa09c0a381, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:26:02 GMT+0530 (India Standard Time), Req URL: /api/cartItems/683614b060ac97fa09c0a381, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:39:33 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"John Doe","email":"johndoe@gmail.com","password":"Password123@","type":"User"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:40:03 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"John Doe","email":"johndoe@gmail.com","password":"Password123@","type":"User"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:40:47 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:41:44 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:42:09 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:43:42 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:44:21 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: {"productID":"68361c803ad1c48f3483f65d","quantity":"5"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:44:21 GMT+0530 (India Standard Time), Error: Something went wrong with the database
+Timestamp: Wed May 28 2025 01:45:17 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: {"productID":"68361c803ad1c48f3483f65d","quantity":"5"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:45:54 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: {"productID":"68361c803ad1c48f3483f65d","quantity":"12"}, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 01:46:05 GMT+0530 (India Standard Time), Req URL: /api/cartItems/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 17:50:37 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 17:50:50 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 17:51:01 GMT+0530 (India Standard Time), Req URL: /api/products/, Req body: undefined, User Agent: PostmanRuntime/7.44.0
+Timestamp: Wed May 28 2025 18:45:34 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"Kovid Bajaj","email":"iamkovidbajaj327@gmail.com","password":"KOVIDBAJAJ","type":"User"}, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Wed May 28 2025 18:47:27 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"Kovid Bajaj","email":"iamkovidbajaj327@gmail.com","password":"KOVID BAJAJ","type":"User"}, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Wed May 28 2025 18:48:01 GMT+0530 (India Standard Time), Req URL: /api/users/signup, Req body: {"name":"Kovid Bajaj","email":"iamkovidbajaj327@gmail.com","password":"Password123@","type":"User"}, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 13:57:03 GMT+0530 (India Standard Time), Req URL: /api-dpcs, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 13:57:03 GMT+0530 (India Standard Time), Req URL: /favicon.ico, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:05:23 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:06:42 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:09:00 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:10:01 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:38:52 GMT+0530 (India Standard Time), SyntaxError: Unexpected token '-', "------WebK"... is not valid JSON
+Timestamp: Sat May 31 2025 14:48:42 GMT+0530 (India Standard Time), Req URL: /api/products/:id, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:49:49 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:50:02 GMT+0530 (India Standard Time), Req URL: /api/products/:id, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:50:02 GMT+0530 (India Standard Time), Error: Something went wrong with database
+Timestamp: Sat May 31 2025 14:51:35 GMT+0530 (India Standard Time), Req URL: /api/products/:id, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:51:35 GMT+0530 (India Standard Time), Error: Something went wrong with database
+Timestamp: Sat May 31 2025 14:53:52 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:53:54 GMT+0530 (India Standard Time), Req URL: /api/products, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:54:08 GMT+0530 (India Standard Time), Req URL: /api/products/:id, Req body: undefined, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+Timestamp: Sat May 31 2025 14:54:08 GMT+0530 (India Standard Time), Error: Something went wrong with database

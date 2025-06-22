@@ -1,0 +1,5 @@
+1. Get all the Products
+2. Add a product
+3. Get one Product by ID
+4. Filter the products
+5. Rate product
